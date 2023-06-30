@@ -1,0 +1,7 @@
+steampy==0.75
+user_agent
+beautifulsoup4
+selenium
+schedule
+webdriver-manager
+lxml

@@ -76,8 +76,8 @@ def selenium_login():
         driver.quit()
 
 
-def get_trade_links(session, user_id):
-    r = session.get(f"{BASE_URL}/trades/search?user={user_id}")
+def get_trade_links(session, userid):
+    r = session.get(f"{BASE_URL}/trades/search?user={userid}")
     soup = bs(r.text, "html.parser")
     links = []
     for h2 in soup.find_all("h2"):
@@ -182,3 +182,4 @@ def start():
 
 if __name__ == "__main__":
     start()
+

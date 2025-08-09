@@ -1,5 +1,4 @@
 @echo off
-chcp 65001 >nul
 title Steamtrades bumper
 
 rem Перейти в папку с батником и скриптом
@@ -10,3 +9,4 @@ python st.py
 echo.
 echo Нажмите любую клавишу для выхода...
 pause >nul
+

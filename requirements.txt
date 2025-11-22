@@ -1,4 +1,4 @@
-steampy==0.75
+steampy
 user_agent
 beautifulsoup4
 selenium
@@ -6,3 +6,4 @@ schedule
 webdriver-manager
 undetected-chromedriver
 lxml
+
